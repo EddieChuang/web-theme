@@ -1,19 +1,11 @@
 $(function() {
+  console.log('document init')
   $('#year').text(new Date().getFullYear())
-  $('body').scrollspy({ target: '#main-nav' })
-  $('#main-nav a').on('click', function(event) {
-    if (this.hash !== '') {
-      event.preventDefault()
-      const hash = this.hash
-      $('html, body').animate(
-        {
-          scrollTop: $(hash).offset().top
-        },
-        800,
-        function() {
-          window.location.hash = hash
-        }
-      )
-    }
+
+  $('.navbar__toggler').click(() => {
+    $('.navbar__collapse').slideToggle(1000, () => {
+      $('.navbar__collapse').css('display', '')
+      $('.navbar__collapse').toggleClass('navbar__collpase--show')
+    })
   })
 })

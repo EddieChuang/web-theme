@@ -12,12 +12,37 @@
 </head>
 
 <body>
-  <nav></nav>
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a class="navbar__brand">Social</a>
+      <button class="navbar__toggler">
+        <div class="navbar__toggler-bar"></div>
+        <div class="navbar__toggler-bar"></div>
+        <div class="navbar__toggler-bar"></div>
+      </button>
+      <div class="navbar__collapse ">
+        <ul class="navbar__nav navbar__nav--right">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__nav-link">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#explore" class="navbar__nav-link">Explore</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#create" class="navbar__nav-link">Create</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#share" class="navbar__nav-link">Share</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 
-  <script src="js/index.js" />
+  <script type="text/javascript" src="js/index.js"></script>
 </body>
 
 </html>
