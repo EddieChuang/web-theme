@@ -20,3 +20,28 @@ body {
     left: 0;
     width: 100%;
     height: 100%; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+#authors img {
+  margin-top: -50px; }
+
+#authors .card,
+#authors .fab {
+  transition: background-color 0.5s ease-out, color 0.5s ease-out; }
+
+#authors .card:hover,
+#authors .card:hover .fab {
+  background: #3292a6;
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 3rem; }
+  .mb-resp {
+    margin-bottom: 1rem; } }
