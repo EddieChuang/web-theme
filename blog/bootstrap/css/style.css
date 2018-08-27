@@ -1,0 +1,30 @@
+body {
+  height: 100vh;
+  width: 100vw; }
+
+.navbar {
+  height: 10vh; }
+
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important; }
+
+.navbar .nav-item.active {
+  border-left: 3px solid #444; }
+
+.carousel-item {
+  height: 90vh; }
+
+.carousel-image1 {
+  background: url(../img/image1.jpg);
+  background-size: cover; }
+
+.carousel-image2 {
+  background: url(../img/image2.jpg);
+  background-size: cover; }
+
+.carousel-image3 {
+  background: url(../img/image3.jpg);
+  background-size: cover; }

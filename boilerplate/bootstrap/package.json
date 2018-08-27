@@ -1,0 +1,13 @@
+{
+  "name": "book-boostrap",
+  "private": true,
+  "scripts": {
+    "build-style-css": "node-sass -w scss/style.scss css/style.css",
+    "build-bootstrap-css": "node-sass -w scss/bootstrap.scss css/bootstrap.css",
+    "build-css": "concurrently --kill-others \"npm run build-style-css\" \"npm run build-bootstrap-css\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.0",
+    "node-sass": "^4.9.3"
+  }
+}

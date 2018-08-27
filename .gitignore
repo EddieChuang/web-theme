@@ -1,3 +1,6 @@
 book/bootstrap/scss/
 book/bootstrap/node_modules/
 book/bootstrap/package-lock.json
+*/bootstrap/scss/
+*/bootstrap/node_modules/
+*/bootstrap/package-lock.json
