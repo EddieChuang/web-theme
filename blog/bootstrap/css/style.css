@@ -4,6 +4,10 @@
 body {
   overflow-x: hidden; }
 
+#main-footer {
+  background: #000;
+  color: #fff; }
+
 .navbar .nav-link {
   font-size: 14px;
   text-transform: uppercase;
@@ -67,3 +71,15 @@ body {
   color: #fff;
   border-bottom: 1px solid #eee;
   padding-top: 50px; }
+
+/********** servives.html  **********/
+#faq .card {
+  border: #444; }
+
+#faq a {
+  color: #fff;
+  text-decoration: none; }
+
+#faq .card-body,
+#faq .card-header {
+  background: #333; }
